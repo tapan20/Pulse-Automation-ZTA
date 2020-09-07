@@ -1,0 +1,46 @@
+{
+	"count": 5,
+	"info_panel_items": [
+		{
+			"application_name": "Google",
+			"device_id": "43da930da3da41abb4b2476cd405916b",
+			"device_type": "Windows",
+			"non_compliance_policy_name": "McAfeeAV",
+			"timestamp": 1598589601,
+			"user_name": "maitri"
+		},
+		{
+			"application_name": "Github",
+			"device_id": "43da930da3da41abb4b2476cd405916b",
+			"device_type": "Windows",
+			"non_compliance_policy_name": "TrendMicroAVMedium",
+			"timestamp": 1598534788,
+			"user_name": "harvey"
+		},
+		{
+			"application_name": "Google",
+			"device_id": "43da930da3da41abb4b2476cd405916b",
+			"device_type": "Windows",
+			"non_compliance_policy_name": "McAfeeAV",
+			"timestamp": 1598534460,
+			"user_name": "maitrib"
+		},
+		{
+			"application_name": "Google",
+			"device_id": "43da930da3da41abb4b2476cd405916b",
+			"device_type": "Windows",
+			"non_compliance_policy_name": "McAfeeAV",
+			"timestamp": 1598595065,
+			"user_name": "maitri"
+		},
+		{
+			"application_name": "Google Test",
+			"device_id": "43da930da3da41abb4b2476cd405916b",
+			"device_type": "Windows",
+			"non_compliance_policy_name": "McAfeeAV",
+			"timestamp": 1598513376,
+			"user_name": "maitri"
+		}
+	],
+	"total": 5
+}

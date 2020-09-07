@@ -1,0 +1,59 @@
+{
+  "blocks": [
+    {
+      "activity_type": 1,
+      "gradient": 10.0,
+      "value": 1,
+      "x": "maitri",
+      "y": "amazon"
+    },
+    {
+      "activity_type": 2,
+      "gradient": 10.0,
+      "value": 1,
+      "x": "maitrib",
+      "y": "amazon"
+    },
+    {
+      "activity_type": 1,
+      "gradient": 10.0,
+      "value": 1,
+      "x": "maitri",
+      "y": "atlassian"
+    },
+    {
+      "activity_type": 0,
+      "gradient": 0.0,
+      "value": 0,
+      "x": "maitrib",
+      "y": "atlassian"
+    },
+    {
+      "activity_type": 1,
+      "gradient": 10.0,
+      "value": 1,
+      "x": "maitri",
+      "y": "slack"
+    },
+    {
+      "activity_type": 0,
+      "gradient": 0.0,
+      "value": 0,
+      "x": "maitrib",
+      "y": "slack"
+    }
+  ],
+  "chart_timestamp": 1597899349,
+  "max_apps_list": [
+    "amazon",
+    "atlassian",
+    "slack"
+  ],
+  "max_gradient_value": 10,
+  "max_users_list": [
+    "maitri",
+    "maitrib"
+  ],
+  "min_gradient_value": 0,
+  "title": "Top Busy Users"
+}

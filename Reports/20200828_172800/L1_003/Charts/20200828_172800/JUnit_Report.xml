@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Charts" time="155.287" tests="5" failures="0" errors="0">
+   <testsuite name="Charts" tests="5" failures="0" errors="0" time="155.287" timestamp="2020-08-28 17:28:02" hostname="perry.gami - localhost" id="Test Suites/L1_003/Charts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_172800/L1_003/Charts/20200828_172800"/>
+         <property name="logFiles" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_172800/L1_003/Charts/20200828_172800/execution0.log"/>
+         <property name="attachments" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_172800/L1_003/Charts/20200828_172800/1598616036267.png"/>
+         <property name="hostName" value="perry.gami - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="6e677260366657453598de27871f66c9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/L1 Dashboard/TopGateways" time="23.813" classname="Test Cases/L1 Dashboard/TopGateways" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:28:02 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/TopGateways: Test Cases/L1 Dashboard/TopGateways
+
+2020-08-28 17:28:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:28:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:28:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:28:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 17:28:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:28:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:28:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:28:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 17:28:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:28:05 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:07 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Username_username"), username): Text 'perry1' is set on object 'Object Repository/Login objects/input_Username_username'
+
+2020-08-28 17:28:08 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/input_Username_username'
+
+2020-08-28 17:28:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Password_password"), password): Text 'dana123' is set on object 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:09 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login objects/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:13 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 17:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 17:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 17:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 17:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 17:28:18 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:28:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Filter object/ScrollTopGateways"), 2): Scroll to object 'Object Repository/Filter object/ScrollTopGateways' successfully
+
+2020-08-28 17:28:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Filter object/ScrollTopGateways' successfully
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/TopGateways.json)): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - try: null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - tooltip = new java.util.ArrayList(): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - appName = new java.util.ArrayList(): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - for ([i = 0, i < result.size(), (i++)]): Actual object 'ahmedabadesx' and expected object 'ahmedabadesx' are equal
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-gateway-health > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:28:20 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'ahmedabadesx'
+
+2020-08-28 17:28:21 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'ahmedabadesx'
+
+2020-08-28 17:28:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:23 - [TEST_STEP][PASSED] - css = "#dashboard-radar-gateway-health > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:28:23 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:23 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:28:23 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:28:24 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:28:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - try: Actual object 'ahmedabadesx' and expected object 'ahmedabadesx' are equal
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-gateway-health > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '5'
+
+2020-08-28 17:28:26 - [MESSAGE][PASSED] - Text of object 'customObject' is: '5'
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:28:26 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'ahmedabadesx' and expected object 'ahmedabadesx' are equal
+
+2020-08-28 17:28:26 - [MESSAGE][PASSED] - Actual object 'ahmedabadesx' and expected object 'ahmedabadesx' are equal
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - print(tooltip): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - print(appName): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - print(JSON_Value): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - print(JSON_Name): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:28:26 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/TopLocations" time="23.825" classname="Test Cases/L1 Dashboard/TopLocations" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:28:26 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/TopLocations: Test Cases/L1 Dashboard/TopLocations
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:28:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 17:28:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:28:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:28:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:28:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 17:28:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:28:27 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:28 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Username_username"), username): Text 'perry1' is set on object 'Object Repository/Login objects/input_Username_username'
+
+2020-08-28 17:28:29 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/input_Username_username'
+
+2020-08-28 17:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Password_password"), password): Text 'dana123' is set on object 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:30 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login objects/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/input_Password_password'
+
+2020-08-28 17:28:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:33 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 17:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 17:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 17:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 17:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 17:28:37 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:28:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Filter object/ScrollToLocations"), 2): Scroll to object 'Object Repository/Filter object/ScrollToLocations' successfully
+
+2020-08-28 17:28:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Filter object/ScrollToLocations' successfully
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/TopLocations.json)): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - try: null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - tooltip = new java.util.ArrayList(): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - appName = new java.util.ArrayList(): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - for ([i = 0, i < result.size(), (i++)]): Actual object 'leicester' and expected object 'leicester' are equal
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'bengaluru'
+
+2020-08-28 17:28:40 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'bengaluru'
+
+2020-08-28 17:28:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:42 - [TEST_STEP][PASSED] - css = "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:28:42 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:42 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:28:42 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:28:43 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:28:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - try: Actual object 'bengaluru' and expected object 'bengaluru' are equal
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '5'
+
+2020-08-28 17:28:45 - [MESSAGE][PASSED] - Text of object 'customObject' is: '5'
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:28:45 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'bengaluru' and expected object 'bengaluru' are equal
+
+2020-08-28 17:28:45 - [MESSAGE][PASSED] - Actual object 'bengaluru' and expected object 'bengaluru' are equal
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'leicester'
+
+2020-08-28 17:28:45 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'leicester'
+
+2020-08-28 17:28:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:47 - [TEST_STEP][PASSED] - css = "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:28:47 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:47 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:28:47 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:28:47 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:28:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:28:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:28:49 - [TEST_STEP][PASSED] - try: Actual object 'leicester' and expected object 'leicester' are equal
+
+2020-08-28 17:28:49 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:28:49 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:28:49 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '4'
+
+2020-08-28 17:28:50 - [MESSAGE][PASSED] - Text of object 'customObject' is: '4'
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '4' and expected object '4' are equal
+
+2020-08-28 17:28:50 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'leicester' and expected object 'leicester' are equal
+
+2020-08-28 17:28:50 - [MESSAGE][PASSED] - Actual object 'leicester' and expected object 'leicester' are equal
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - print(tooltip): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - print(appName): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - print(JSON_Value): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - print(JSON_Name): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:28:50 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/TopActiveApplications" time="22.762" classname="Test Cases/L1 Dashboard/TopActiveApplications" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:28:50 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/TopActiveApplications: Test Cases/L1 Dashboard/TopActiveApplications
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:28:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 17:28:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:28:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:28:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:28:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 17:28:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:28:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:52 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/username"), username): Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:28:53 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/password"), password): Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:28:54 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:28:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login objects/singin button"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:28:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:28:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 17:28:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:28:59 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 17:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 17:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 17:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 17:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 17:29:01 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:29:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Filter object/ScrollToApplications"), 2): Scroll to object 'Object Repository/Filter object/ScrollToApplications' successfully
+
+2020-08-28 17:29:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Filter object/ScrollToApplications' successfully
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/TopActiveApplications.json)): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:29:04 - [TEST_STEP][FAILED] - try: null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - tooltip = new java.util.ArrayList(): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - appName = new java.util.ArrayList(): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 17:29:04 - [TEST_STEP][FAILED] - for ([i = 0, i < result.size(), (i++)]): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:04 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'amazon'
+
+2020-08-28 17:29:05 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'amazon'
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:05 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:05 - [TEST_STEP][FAILED] - try: Unable to verify equal between actual object '' and expected object '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '2' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:05 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: ''
+
+2020-08-28 17:29:06 - [MESSAGE][PASSED] - Text of object 'customObject' is: ''
+
+2020-08-28 17:29:06 - [TEST_STEP][FAILED] - verifyEqual(tooltip[i], JSON_Value[i]): Unable to verify equal between actual object '' and expected object '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '2' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:06 - [MESSAGE][FAILED] - Unable to verify equal between actual object '' and expected object '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '2' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'atlassian'
+
+2020-08-28 17:29:06 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'atlassian'
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:06 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - try: Actual object 'atlassian' and expected object 'atlassian' are equal
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:06 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '2'
+
+2020-08-28 17:29:07 - [MESSAGE][PASSED] - Text of object 'customObject' is: '2'
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '2' and expected object '2' are equal
+
+2020-08-28 17:29:07 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'atlassian' and expected object 'atlassian' are equal
+
+2020-08-28 17:29:07 - [MESSAGE][PASSED] - Actual object 'atlassian' and expected object 'atlassian' are equal
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'slack'
+
+2020-08-28 17:29:07 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'slack'
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:07 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - try: Actual object 'slack' and expected object 'slack' are equal
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '2'
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Text of object 'customObject' is: '2'
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '2' and expected object '2' are equal
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'slack' and expected object 'slack' are equal
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Actual object 'slack' and expected object 'slack' are equal
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'ssh'
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'ssh'
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:08 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - try: Actual object 'ssh' and expected object 'ssh' are equal
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:08 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:09 - [MESSAGE][PASSED] - Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:09 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'ssh' and expected object 'ssh' are equal
+
+2020-08-28 17:29:09 - [MESSAGE][PASSED] - Actual object 'ssh' and expected object 'ssh' are equal
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'zoom'
+
+2020-08-28 17:29:09 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'zoom'
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:09 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - try: Actual object 'zoom' and expected object 'zoom' are equal
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:09 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:10 - [MESSAGE][PASSED] - Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:10 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'zoom' and expected object 'zoom' are equal
+
+2020-08-28 17:29:10 - [MESSAGE][PASSED] - Actual object 'zoom' and expected object 'zoom' are equal
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'zulip'
+
+2020-08-28 17:29:10 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'zulip'
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:10 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:11 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:11 - [TEST_STEP][FAILED] - try: Unable to verify equal between actual object '' and expected object '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '1' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:11 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:11 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:11 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: ''
+
+2020-08-28 17:29:11 - [MESSAGE][PASSED] - Text of object 'customObject' is: ''
+
+2020-08-28 17:29:12 - [TEST_STEP][FAILED] - verifyEqual(tooltip[i], JSON_Value[i]): Unable to verify equal between actual object '' and expected object '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '1' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:12 - [MESSAGE][FAILED] - Unable to verify equal between actual object '' and expected object '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object '1' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TopActiveApplications.run(TopActiveApplications:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+)
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - css1 = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Axis-group.amcharts-CategoryAxis-group > g > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-AxisRenderer-group.amcharts-AxisRendererCircular-group > g > g:nth-child(" + i + 4 + ") > g > text > tspan": null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - myTestOject1 = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - myTestOject1.addProperty("css", EQUALS, css1): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - appName[i] = getText(myTestOject1): Text of object 'customObject' is: 'dropbox'
+
+2020-08-28 17:29:12 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'dropbox'
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - css = "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > g > g > path": null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:12 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - try: Actual object 'dropbox' and expected object 'dropbox' are equal
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - tooltip[i] = getText(Tooltip): Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:12 - [MESSAGE][PASSED] - Text of object 'customObject' is: '1'
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - verifyEqual(tooltip[i], JSON_Value[i]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:12 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - verifyEqual(appName[i], JSON_Name[i]): Actual object 'dropbox' and expected object 'dropbox' are equal
+
+2020-08-28 17:29:12 - [MESSAGE][PASSED] - Actual object 'dropbox' and expected object 'dropbox' are equal
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - print(tooltip): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - print(appName): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - print(JSON_Value): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - print(JSON_Name): null
+
+2020-08-28 17:29:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:29:13 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Non-complaince" time="21.316" classname="Test Cases/L1 Dashboard/Non-complaince" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:29:13 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/Non-complaince: Test Cases/L1 Dashboard/Non-complaince
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:29:13 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:29:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:29:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:29:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:29:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:29:15 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:29:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:29:19 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:29:20 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:29:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:29:21 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:29:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 17:29:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:29:24 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 17:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 17:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 17:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 17:29:27 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:29:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Login objects/Non-compliance")): Object: 'Object Repository/Login objects/Non-compliance' is hovered
+
+2020-08-28 17:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login objects/Non-compliance' is hovered
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - getText(findTestObject("Login objects/Tooltip value")): Text of object 'Object Repository/Login objects/Tooltip value' is: 'mcafeeav: 14'
+
+2020-08-28 17:29:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login objects/Tooltip value' is: 'mcafeeav: 14'
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Non-compliance.json)): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - try: Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - UI = new java.util.ArrayList(): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - for ([i = 0, i < 5, (i++)]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:30 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:31 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - try: Actual object '14' and expected object '14' are equal
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'mcafeeav: 14'
+
+2020-08-28 17:29:31 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'mcafeeav: 14'
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'mcafeeav' and expected text 'mcafeeav' are matched 
+
+2020-08-28 17:29:31 - [MESSAGE][PASSED] - Actual text 'mcafeeav' and expected text 'mcafeeav' are matched 
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '14' and expected object '14' are equal
+
+2020-08-28 17:29:31 - [MESSAGE][PASSED] - Actual object '14' and expected object '14' are equal
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:31 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - try: Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:31 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavlow: 7'
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavlow: 7'
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavlow' and expected text 'symantecavlow' are matched 
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Actual text 'symantecavlow' and expected text 'symantecavlow' are matched 
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - try: Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavmedium: 7'
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavmedium: 7'
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavmedium' and expected text 'symantecavmedium' are matched 
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Actual text 'symantecavmedium' and expected text 'symantecavmedium' are matched 
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:32 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:32 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:33 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - try: Actual object '4' and expected object '4' are equal
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'trendmicroavmedium: 4'
+
+2020-08-28 17:29:33 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'trendmicroavmedium: 4'
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'trendmicroavmedium' and expected text 'trendmicroavmedium' are matched 
+
+2020-08-28 17:29:33 - [MESSAGE][PASSED] - Actual text 'trendmicroavmedium' and expected text 'trendmicroavmedium' are matched 
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '4' and expected object '4' are equal
+
+2020-08-28 17:29:33 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:33 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - try: Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:33 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavhigh: 1'
+
+2020-08-28 17:29:34 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavhigh: 1'
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavhigh' and expected text 'symantecavhigh' are matched 
+
+2020-08-28 17:29:34 - [MESSAGE][PASSED] - Actual text 'symantecavhigh' and expected text 'symantecavhigh' are matched 
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:34 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:29:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Anomalies" time="63.27" classname="Test Cases/L1 Dashboard/Anomalies" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:29:34 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/Anomalies: Test Cases/L1 Dashboard/Anomalies
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:29:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 17:29:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:29:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:29:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:29:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 17:29:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:29:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:29:36 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:29:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 17:29:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:29:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/username"), username): Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:29:40 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/password"), password): Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:29:41 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:29:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login objects/singin button"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:29:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:29:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:29:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/ActiveAnomalies.json)): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:29:45 - [TEST_STEP][FAILED] - try: null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - UI = new java.util.ArrayList(): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 17:29:45 - [TEST_STEP][FAILED] - for ([i = 0, i < 2, (i++)]): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - css = "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(" + i + 1 + ") > g > g > g > g > g > g > g > g > path": null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:29:45 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:29:46 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:29:46 - [TEST_STEP][FAILED] - try: Unable to get text of object 'customObject' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'customObject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Anomalies.run(Anomalies:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'customObject' located by 'By.cssSelector: #dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Script1598588779525.run(Script1598588779525.groovy:79)
+	... 13 more
+)
+
+2020-08-28 17:29:46 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:29:46 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:29:46 - [TEST_STEP][FAILED] - UI[i + 1] = getText(Tooltip): Unable to get text of object 'customObject' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'customObject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Anomalies.run(Anomalies:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'customObject' located by 'By.cssSelector: #dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Script1598588779525.run(Script1598588779525.groovy:79)
+	... 13 more
+)
+
+2020-08-28 17:30:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-28 17:30:36 - [MESSAGE][FAILED] - Unable to get text of object 'customObject' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'customObject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Anomalies.run(Anomalies:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598615880178.run(TempTestSuite1598615880178.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'customObject' located by 'By.cssSelector: #dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:914)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Script1598588779525.run(Script1598588779525.groovy:79)
+	... 13 more
+)
+[[ATTACHMENT|/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_172800/L1_003/Charts/20200828_172800/1598616036267.png]]
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - css = "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(" + i + 1 + ") > g > g > g > g > g > g > g > g > path": null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 17:30:36 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 17:30:37 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - try: null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'Geolocation: 40'
+
+2020-08-28 17:30:37 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Geolocation: 40'
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false, CONTINUE_ON_FAILURE): Actual text 'Geolocation' and expected text 'Geolocation' are matched 
+
+2020-08-28 17:30:37 - [MESSAGE][PASSED] - Actual text 'Geolocation' and expected text 'Geolocation' are matched 
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i], false, CONTINUE_ON_FAILURE): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:30:37 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:30:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 17:28:02 - [TEST_SUITE][PASSED] - Charts: Test Cases/L1 Dashboard/Anomalies]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

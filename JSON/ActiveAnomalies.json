@@ -1,0 +1,14 @@
+{
+  "buckets": [
+    {
+      "name": "Business Hours",
+      "value": 0
+    },
+    {
+      "name": "Geolocation",
+      "value": 40
+    }
+  ],
+  "chart_timestamp": 1598357932,
+  "title": "Anomalies"
+}

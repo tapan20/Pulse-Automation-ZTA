@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Charts" time="47.195" tests="5" failures="1" errors="3">
+   <testsuite name="Charts" tests="5" failures="1" errors="3" time="47.195" timestamp="2020-08-28 16:55:29" hostname="perry.gami - localhost" id="Test Suites/L1_003/Charts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_165527/L1_003/Charts/20200828_165527"/>
+         <property name="logFiles" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_165527/L1_003/Charts/20200828_165527/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="perry.gami - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="af3458535ce5766e36512d191dbfea38"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/L1 Dashboard/TopGateways" time="4.392" classname="Test Cases/L1 Dashboard/TopGateways" status="ERROR">
+         <error type="ERROR" message="Test Cases/L1 Dashboard/TopGateways FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopGateways.run(TopGateways:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+"/>
+         <system-out><![CDATA[2020-08-28 16:55:29 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopGateways: Test Cases/L1 Dashboard/TopGateways FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopGateways.run(TopGateways:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+
+
+2020-08-28 16:55:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 16:55:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 16:55:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 16:55:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 16:55:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 16:55:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 16:55:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 16:55:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 16:55:31 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:33 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Username_username"), Username): null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 16:55:29 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopGateways: Test Cases/L1 Dashboard/TopGateways FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopGateways.run(TopGateways:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/TopLocations" time="2.6" classname="Test Cases/L1 Dashboard/TopLocations" status="ERROR">
+         <error type="ERROR" message="Test Cases/L1 Dashboard/TopLocations FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopLocations.run(TopLocations:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+"/>
+         <system-out><![CDATA[2020-08-28 16:55:33 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopLocations: Test Cases/L1 Dashboard/TopLocations FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopLocations.run(TopLocations:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 16:55:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 16:55:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-28 16:55:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 16:55:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 16:55:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 16:55:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 16:55:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 16:55:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:36 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Username_username"), Username): null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 16:55:33 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopLocations: Test Cases/L1 Dashboard/TopLocations FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopLocations.run(TopLocations:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/TopActiveApplications" time="2.588" classname="Test Cases/L1 Dashboard/TopActiveApplications" status="ERROR">
+         <error type="ERROR" message="Test Cases/L1 Dashboard/TopActiveApplications FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopActiveApplications.run(TopActiveApplications:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+"/>
+         <system-out><![CDATA[2020-08-28 16:55:36 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopActiveApplications: Test Cases/L1 Dashboard/TopActiveApplications FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopActiveApplications.run(TopActiveApplications:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 16:55:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 16:55:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-28 16:55:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 16:55:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 16:55:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 16:55:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 16:55:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 16:55:37 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:38 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/input_Username_username"), Username): null
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 16:55:36 - [TEST_CASE][ERROR] - Test Cases/L1 Dashboard/TopActiveApplications: Test Cases/L1 Dashboard/TopActiveApplications FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopActiveApplications.run(TopActiveApplications:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Non-complaince" time="22.101" classname="Test Cases/L1 Dashboard/Non-complaince" status="PASSED">
+         <system-out><![CDATA[2020-08-28 16:55:38 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/Non-complaince: Test Cases/L1 Dashboard/Non-complaince
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:55:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 16:55:39 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 16:55:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-28 16:55:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 16:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 16:55:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 16:55:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 16:55:41 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:55:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 16:55:45 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 16:55:45 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 16:55:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 16:55:48 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 16:55:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 16:55:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 16:55:51 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 16:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 16:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 16:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 16:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 16:55:54 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 16:55:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Login objects/Non-compliance")): Object: 'Object Repository/Login objects/Non-compliance' is hovered
+
+2020-08-28 16:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login objects/Non-compliance' is hovered
+
+2020-08-28 16:55:56 - [TEST_STEP][PASSED] - getText(findTestObject("Login objects/Tooltip value")): Text of object 'Object Repository/Login objects/Tooltip value' is: 'mcafeeav: 14'
+
+2020-08-28 16:55:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login objects/Tooltip value' is: 'mcafeeav: 14'
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Non-compliance.json)): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - try: Actual object '1' and expected object '1' are equal
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - UI = new java.util.ArrayList(): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - for ([i = 0, i < 5, (i++)]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:55:57 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - try: Actual object '14' and expected object '14' are equal
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:55:57 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'mcafeeav: 14'
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'mcafeeav: 14'
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'mcafeeav' and expected text 'mcafeeav' are matched 
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Actual text 'mcafeeav' and expected text 'mcafeeav' are matched 
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '14' and expected object '14' are equal
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Actual object '14' and expected object '14' are equal
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - try: Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavlow: 7'
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavlow: 7'
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavlow' and expected text 'symantecavlow' are matched 
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Actual text 'symantecavlow' and expected text 'symantecavlow' are matched 
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:58 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:55:58 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:55:59 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - try: Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavmedium: 7'
+
+2020-08-28 16:55:59 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavmedium: 7'
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavmedium' and expected text 'symantecavmedium' are matched 
+
+2020-08-28 16:55:59 - [MESSAGE][PASSED] - Actual text 'symantecavmedium' and expected text 'symantecavmedium' are matched 
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:59 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:55:59 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - try: Actual object '4' and expected object '4' are equal
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:55:59 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'trendmicroavmedium: 4'
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'trendmicroavmedium: 4'
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'trendmicroavmedium' and expected text 'trendmicroavmedium' are matched 
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Actual text 'trendmicroavmedium' and expected text 'trendmicroavmedium' are matched 
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '4' and expected object '4' are equal
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - css = "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(" + i + 1 + ") > g > g > path": null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - try: Actual object '1' and expected object '1' are equal
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'symantecavhigh: 1'
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'symantecavhigh: 1'
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false): Actual text 'symantecavhigh' and expected text 'symantecavhigh' are matched 
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Actual text 'symantecavhigh' and expected text 'symantecavhigh' are matched 
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - out.println(a[1] + JSON_Value[i]): null
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i]): Actual object '1' and expected object '1' are equal
+
+2020-08-28 16:56:00 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 16:56:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 16:56:01 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Anomalies" time="15.243" classname="Test Cases/L1 Dashboard/Anomalies" status="FAILED">
+         <failure type="FAILED" message="Test Cases/L1 Dashboard/Anomalies FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '' and expected text 'Business Hours' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2020-08-28 16:56:01 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Anomalies: Test Cases/L1 Dashboard/Anomalies FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '' and expected text 'Business Hours' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 16:56:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-28 16:56:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 16:56:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 16:56:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 16:56:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 16:56:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 16:56:02 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:56:03 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 16:56:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 16:56:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 16:56:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/username"), username): Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 16:56:07 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 16:56:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login objects/password"), password): Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 16:56:08 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 16:56:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login objects/singin button"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 16:56:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 16:56:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 16:56:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/ActiveAnomalies.json)): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 16:56:12 - [TEST_STEP][FAILED] - try: null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - UI = new java.util.ArrayList(): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - JSON_Name = new java.util.ArrayList(): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - JSON_Value = new java.util.ArrayList(): null
+
+2020-08-28 16:56:12 - [TEST_STEP][FAILED] - for ([i = 0, i < 2, (i++)]): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - css = "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(" + i + 1 + ") > g > g > g > g > g > g > g > g > path": null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:56:12 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:56:13 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:56:13 - [TEST_STEP][FAILED] - try: null
+
+2020-08-28 16:56:13 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:13 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:56:13 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: ''
+
+2020-08-28 16:56:15 - [MESSAGE][PASSED] - Text of object 'customObject' is: ''
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:56:15 - [TEST_STEP][FAILED] - verifyMatch(a[0], JSON_Name[i], false, CONTINUE_ON_FAILURE): Unable to verify match between actual text '' and expected text 'Business Hours' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+)
+
+2020-08-28 16:56:15 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Business Hours' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+)
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i], false, CONTINUE_ON_FAILURE): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - JSON_Name[i] = name: null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - JSON_Value[i] = value: null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - css = "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(" + i + 1 + ") > g > g > g > g > g > g > g > g > path": null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - myTestOject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - myTestOject.addProperty("css", EQUALS, css): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - out.println(css): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - mouseOver(myTestOject): Object: 'customObject' is hovered
+
+2020-08-28 16:56:15 - [MESSAGE][PASSED] - Object: 'customObject' is hovered
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - try: null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - Tooltip = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - Tooltip.addProperty("css", EQUALS, "#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan"): null
+
+2020-08-28 16:56:15 - [TEST_STEP][PASSED] - UI[i + 1] = getText(Tooltip): Text of object 'customObject' is: 'Geolocation: 40'
+
+2020-08-28 16:56:16 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Geolocation: 40'
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - print(UI[i + 1]): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - a = UI[i + 1].split(":"): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - out.println(a[0]): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - verifyMatch(a[0], JSON_Name[i], false, CONTINUE_ON_FAILURE): Actual text 'Geolocation' and expected text 'Geolocation' are matched 
+
+2020-08-28 16:56:16 - [MESSAGE][PASSED] - Actual text 'Geolocation' and expected text 'Geolocation' are matched 
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - verifyEqual(a[1].trim(), JSON_Value[i], false, CONTINUE_ON_FAILURE): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - e.print("No tooltip found"): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 16:56:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 16:56:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 16:56:01 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Anomalies: Test Cases/L1 Dashboard/Anomalies FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '' and expected text 'Business Hours' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Anomalies.run(Anomalies:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Business Hours' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 16:55:29 - [TEST_SUITE][ERROR] - Charts: Test Cases/L1 Dashboard/TopGateways FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopGateways.run(TopGateways:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-08-28 16:55:29 - [TEST_SUITE][ERROR] - Charts: Test Cases/L1 Dashboard/TopGateways FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: internal.GlobalVariable
+	at TopGateways.run(TopGateways:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598613927297.run(TempTestSuite1598613927297.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

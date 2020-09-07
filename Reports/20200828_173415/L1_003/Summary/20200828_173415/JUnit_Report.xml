@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Summary" time="71.667" tests="4" failures="2" errors="0">
+   <testsuite name="Summary" tests="4" failures="2" errors="0" time="71.667" timestamp="2020-08-28 17:34:16" hostname="perry.gami - localhost" id="Test Suites/L1_003/Summary">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_173415/L1_003/Summary/20200828_173415"/>
+         <property name="logFiles" value="/Users/perry.gami/git/Pulse-ZTA/Reports/20200828_173415/L1_003/Summary/20200828_173415/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="perry.gami - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="9dc5a2d6b76ca3e7d785bd0c6d222293"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/L1 Dashboard/Map-tooltip" time="24.808" classname="Test Cases/L1 Dashboard/Map-tooltip" status="FAILED">
+         <failure type="FAILED" message="Test Cases/L1 Dashboard/Map-tooltip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+"/>
+         <system-out><![CDATA[2020-08-28 17:34:17 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Map-tooltip: Test Cases/L1 Dashboard/Map-tooltip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+
+
+2020-08-28 17:34:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:34:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:34:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:34:17 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:34:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:34:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:34:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:34:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:34:20 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:34:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:34:24 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:34:24 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:34:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:34:26 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:34:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:34:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:34:28 - [TEST_STEP][PASSED] - custom_keyword.keywords.apply_filter(): custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/filter_button' is clicked on
+
+2020-08-28 17:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/set_filter' is clicked on
+
+2020-08-28 17:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/down_arrow' is clicked on
+
+2020-08-28 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/last calander week' is clicked on
+
+2020-08-28 17:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter object/Apply filter' is clicked on
+
+2020-08-28 17:34:32 - [MESSAGE][PASSED] - custom_keyword.keywords.apply_filter is PASSED
+
+2020-08-28 17:34:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-28 17:34:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Maptooltip.json)): null
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Map tooltip objects/circle hover")): Object: 'Object Repository/Map tooltip objects/circle hover' is hovered
+
+2020-08-28 17:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Map tooltip objects/circle hover' is hovered
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - Name = getText(findTestObject("Map tooltip objects/Gateways - Text")): Text of object 'Object Repository/Map tooltip objects/Gateways - Text' is: 'GATEWAYS'
+
+2020-08-28 17:34:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Gateways - Text' is: 'GATEWAYS'
+
+2020-08-28 17:34:35 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-Gateways")): Text of object 'Object Repository/Map tooltip objects/Map-Gateways' is: '1'
+
+2020-08-28 17:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Gateways' is: '1'
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - Gateway_name = name: null
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - Gateway_value = value: null
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - if (verifyMatch(Gateway_value, getText(findTestObject("Map tooltip objects/Map-Gateways")), false)): null
+
+2020-08-28 17:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Gateways' is: '1'
+
+2020-08-28 17:34:36 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - println("Gateway value from Web is : " + getText(findTestObject("Map tooltip objects/Map-Gateways")) + " and Gateway value JSON is : " + Gateway_value + " thus, it is correct"): Text of object 'Object Repository/Map tooltip objects/Map-Gateways' is: '1'
+
+2020-08-28 17:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Gateways' is: '1'
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Users - Text")): Text of object 'Object Repository/Map tooltip objects/Users - Text' is: 'ACTIVE USERS'
+
+2020-08-28 17:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Users - Text' is: 'ACTIVE USERS'
+
+2020-08-28 17:34:36 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-Users")): Text of object 'Object Repository/Map tooltip objects/Map-Users' is: '5'
+
+2020-08-28 17:34:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Users' is: '5'
+
+2020-08-28 17:34:37 - [TEST_STEP][PASSED] - User_value = value: null
+
+2020-08-28 17:34:37 - [TEST_STEP][PASSED] - if (verifyMatch(User_value, getText(findTestObject("Map tooltip objects/Map-Users")), false)): null
+
+2020-08-28 17:34:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Users' is: '5'
+
+2020-08-28 17:34:37 - [MESSAGE][PASSED] - Actual text '5' and expected text '5' are matched 
+
+2020-08-28 17:34:37 - [TEST_STEP][PASSED] - print("User value from web is : " + getText(findTestObject("Map tooltip objects/Map-Users")) + " User value from json is : " + User_value + "thus values are matched"): Text of object 'Object Repository/Map tooltip objects/Map-Users' is: '5'
+
+2020-08-28 17:34:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Users' is: '5'
+
+2020-08-28 17:34:37 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Devices - Text")): Text of object 'Object Repository/Map tooltip objects/Devices - Text' is: 'DEVICES'
+
+2020-08-28 17:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Devices - Text' is: 'DEVICES'
+
+2020-08-28 17:34:38 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-Devices")): Text of object 'Object Repository/Map tooltip objects/Map-Devices' is: '2'
+
+2020-08-28 17:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Devices' is: '2'
+
+2020-08-28 17:34:38 - [TEST_STEP][PASSED] - Device_value = value: null
+
+2020-08-28 17:34:38 - [TEST_STEP][PASSED] - if (verifyMatch(Device_value, getText(findTestObject("Map tooltip objects/Map-Devices")), false)): null
+
+2020-08-28 17:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Devices' is: '2'
+
+2020-08-28 17:34:38 - [MESSAGE][PASSED] - Actual text '2' and expected text '2' are matched 
+
+2020-08-28 17:34:38 - [TEST_STEP][PASSED] - print("Device value from web is : " + getText(findTestObject("Map tooltip objects/Map-Devices")) + " Device value from json is : " + Device_value + "thus values are matched"): Text of object 'Object Repository/Map tooltip objects/Map-Devices' is: '2'
+
+2020-08-28 17:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-Devices' is: '2'
+
+2020-08-28 17:34:38 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Non compliance")): Text of object 'Object Repository/Map tooltip objects/Non compliance' is: 'NON-COMPLIANCES'
+
+2020-08-28 17:34:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Non compliance' is: 'NON-COMPLIANCES'
+
+2020-08-28 17:34:39 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-non_compliance")): Text of object 'Object Repository/Map tooltip objects/Map-non_compliance' is: '33'
+
+2020-08-28 17:34:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-non_compliance' is: '33'
+
+2020-08-28 17:34:39 - [TEST_STEP][PASSED] - Non_compliance_value = value: null
+
+2020-08-28 17:34:39 - [TEST_STEP][PASSED] - if (verifyMatch(Non_compliance_value, getText(findTestObject("Map tooltip objects/Map-non_compliance")), false)): null
+
+2020-08-28 17:34:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-non_compliance' is: '33'
+
+2020-08-28 17:34:39 - [MESSAGE][PASSED] - Actual text '33' and expected text '33' are matched 
+
+2020-08-28 17:34:39 - [TEST_STEP][PASSED] - print("Non-compliance value from web is : " + getText(findTestObject("Map tooltip objects/Map-non_compliance")) + " Non-compliance value from json is : " + Non_compliance_value + "thus values are matched"): Text of object 'Object Repository/Map tooltip objects/Map-non_compliance' is: '33'
+
+2020-08-28 17:34:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-non_compliance' is: '33'
+
+2020-08-28 17:34:39 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Critical error -text")): Text of object 'Object Repository/Map tooltip objects/Critical error -text' is: 'CRITICAL ERRORS'
+
+2020-08-28 17:34:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Critical error -text' is: 'CRITICAL ERRORS'
+
+2020-08-28 17:34:40 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-critical_errors")): Text of object 'Object Repository/Map tooltip objects/Map-critical_errors' is: '5'
+
+2020-08-28 17:34:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-critical_errors' is: '5'
+
+2020-08-28 17:34:40 - [TEST_STEP][PASSED] - critical_error_value = value: null
+
+2020-08-28 17:34:40 - [TEST_STEP][PASSED] - if (verifyMatch(critical_error_value, getText(findTestObject("Map tooltip objects/Map-critical_errors")), false)): null
+
+2020-08-28 17:34:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-critical_errors' is: '5'
+
+2020-08-28 17:34:40 - [MESSAGE][PASSED] - Actual text '5' and expected text '5' are matched 
+
+2020-08-28 17:34:40 - [TEST_STEP][PASSED] - print("critical_value value from web is : " + getText(findTestObject("Map tooltip objects/Map-critical_errors")) + " critical_error_value from json is : " + critical_error_value + "thus values are matched"): Text of object 'Object Repository/Map tooltip objects/Map-critical_errors' is: '5'
+
+2020-08-28 17:34:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-critical_errors' is: '5'
+
+2020-08-28 17:34:40 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Applcation text")): Text of object 'Object Repository/Map tooltip objects/Applcation text' is: ''
+
+2020-08-28 17:34:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Applcation text' is: ''
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - getText(findTestObject("Map tooltip objects/Map-applications")): Text of object 'Object Repository/Map tooltip objects/Map-applications' is: ''
+
+2020-08-28 17:34:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-applications' is: ''
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - application_value = value: null
+
+2020-08-28 17:34:41 - [TEST_STEP][FAILED] - if (verifyMatch(application_value, getText(findTestObject("Map tooltip objects/Map-applications")), false)): Unable to verify match between actual text '7' and expected text '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:34:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Map tooltip objects/Map-applications' is: ''
+
+2020-08-28 17:34:41 - [MESSAGE][FAILED] - Unable to verify match between actual text '7' and expected text '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 17:34:17 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Map-tooltip: Test Cases/L1 Dashboard/Map-tooltip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Network Activity time" time="11.809" classname="Test Cases/L1 Dashboard/Network Activity time" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:34:41 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/Network Activity time: Test Cases/L1 Dashboard/Network Activity time
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:34:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:34:42 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:34:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-28 17:34:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:34:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:34:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:34:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:34:44 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:34:47 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:34:48 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:34:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:34:50 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:34:50 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:34:50 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Activity_time.json)): null
+
+2020-08-28 17:34:50 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:34:50 - [TEST_STEP][PASSED] - start = getText(findTestObject("Activity/Start time")): Text of object 'Object Repository/Activity/Start time' is: 'FRI, 28 AUG 2020 11:04:50 AM GMT'
+
+2020-08-28 17:34:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Activity/Start time' is: 'FRI, 28 AUG 2020 11:04:50 AM GMT'
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(start.substring(5, 31)): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - end = getText(findTestObject("Activity/End time")): Text of object 'Object Repository/Activity/End time' is: 'FRI, 28 AUG 2020 12:04:50 PM GMT'
+
+2020-08-28 17:34:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Activity/End time' is: 'FRI, 28 AUG 2020 12:04:50 PM GMT'
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(end.substring(5, 31)): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("Start Time for Network Activity : " + start): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("End Time for Network Activity : " + end): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jsonStartTime = start_time: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("JSON Start TimeStamp =  " + jsonStartTime): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jsonEndTime = end_time: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("JSON End TimeStamp = " + jsonEndTime): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - startDate = new java.util.Date((jsonStartTime * 1000)): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jdf = new java.text.SimpleDateFormat("dd MMM yyyy hh:mm:ss a zzz "): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jdf.setTimeZone(TimeZone.getTimeZone("GMT")): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - java_Startdate = jdf.format(startDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - webStartDate = java_Startdate.substring(1, 28): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("Web Start Date" + webStartDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - if (start.substring(5, 31) == webStartDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("Start Time not matched"): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("Start Time from Web is : " + start.substring(5, 31) + " and from JSON is : " + webStartDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - endDate = new java.util.Date((jsonEndTime * 1000)): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jdf1 = new java.text.SimpleDateFormat("dd MMM yyyy hh:mm:ss a zzz "): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - jdf1.setTimeZone(TimeZone.getTimeZone("GMT")): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - java_Enddate = jdf1.format(endDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - out.println("
+" + java_Enddate + "
+"): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - webEndDate = java_Enddate.substring(1, 28): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("Web End Date" + webEndDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - if (end.substring(5, 31) == webEndDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("End Time Not Matched"): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println("End Time from Web is : " + start.substring(5, 31) + " and from Json is : " + webEndDate): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Slid panel - Non_compliance" time="20.978" classname="Test Cases/L1 Dashboard/Slid panel - Non_compliance" status="PASSED">
+         <system-out><![CDATA[2020-08-28 17:34:53 - [TEST_CASE][PASSED] - Test Cases/L1 Dashboard/Slid panel - Non_compliance: Test Cases/L1 Dashboard/Slid panel - Non_compliance
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:34:53 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:34:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-28 17:34:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:34:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:34:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:34:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:34:55 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:34:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:34:59 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:35:00 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:35:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:35:02 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Summary Panel/Non-complaince")): Object: 'Object Repository/Summary Panel/Non-complaince' is clicked on
+
+2020-08-28 17:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Summary Panel/Non-complaince' is clicked on
+
+2020-08-28 17:35:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:35:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:35:07 - [TEST_STEP][PASSED] - count = getText(findTestObject("count")): Text of object 'Object Repository/count' is: '5'
+
+2020-08-28 17:35:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/count' is: '5'
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Count of Non Compilance = " + count): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - try: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - UI = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - for ([i = 1, i <= count.toInteger(), (i++)]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - poilcyCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(1) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - deviceTypeCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(2) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - applicationNameCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(2) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - deviceIdCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(3) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Slidpanel_noncompliance.json)): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webAppName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - WebapplicationName = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - WebapplicationName.addProperty("css", EQUALS, applicationNameCss): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - WebapplicationName = getText(WebapplicationName): Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:08 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webAppName[i] = WebapplicationName: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("App Name from Web : " + webAppName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonApplicationName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonApplicationName[i] = application_name: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonApplicationName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - if (webAppName[i] == jsonApplicationName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Application Name from Web is : " + webAppName[i] + " and Application Name from JSON is : " + jsonApplicationName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webPolicy = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webPolicy.addProperty("css", EQUALS, poilcyCss): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webPolicy = getText(webPolicy): Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:08 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webPolicyName[i] = webPolicy: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Policy Name from Web : " + webPolicyName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonPolicyName[i] = non_compliance_policy_name: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonPolicyName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - if (webPolicyName[i] == jsonPolicyName[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Policy Name from Web is : " + webPolicyName[i] + " and Policy Name from JSON is : " + jsonPolicyName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceTypeObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceTypeObject.addProperty("css", EQUALS, deviceTypeCss): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceTypeObject = getText(webDeviceTypeObject): Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:08 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceType[i] = webDeviceTypeObject: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Device Type from Web : " + webDeviceType[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - jsonDeviceType[i] = device_type: null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Device Type from JSON : " + i + " " + jsonDeviceType[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - if (webDeviceType[i] == jsonDeviceType[i]): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - println("Device Type  from Web is : " + webDeviceType[i] + " and Device Type from JSON is : " + jsonDeviceType[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceIdObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceIdObject.addProperty("css", EQUALS, deviceIdCss): null
+
+2020-08-28 17:35:08 - [TEST_STEP][PASSED] - webDeviceIdObject = getText(webDeviceIdObject): Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:09 - [MESSAGE][PASSED] - Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webDeviceId[i] = webDeviceIdObject: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Device Id from Web : " + webDeviceId[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonDeviceId[i] = device_id: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Device Id from JSON : " + i + " " + jsonDeviceId[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - if (webDeviceId[i] == jsonDeviceId[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Device Id from Web is : " + webDeviceId[i] + " and Device Id from JSON is : " + jsonDeviceId[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - poilcyCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(1) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - deviceTypeCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(2) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - applicationNameCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(2) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - deviceIdCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(3) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Slidpanel_noncompliance.json)): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webAppName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - WebapplicationName = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - WebapplicationName.addProperty("css", EQUALS, applicationNameCss): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - WebapplicationName = getText(WebapplicationName): Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:09 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webAppName[i] = WebapplicationName: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("App Name from Web : " + webAppName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonApplicationName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonApplicationName[i] = application_name: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonApplicationName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - if (webAppName[i] == jsonApplicationName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Application Name from Web is : " + webAppName[i] + " and Application Name from JSON is : " + jsonApplicationName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webPolicy = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webPolicy.addProperty("css", EQUALS, poilcyCss): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webPolicy = getText(webPolicy): Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:09 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webPolicyName[i] = webPolicy: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Policy Name from Web : " + webPolicyName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - jsonPolicyName[i] = non_compliance_policy_name: null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonPolicyName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - if (webPolicyName[i] == jsonPolicyName[i]): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - println("Policy Name from Web is : " + webPolicyName[i] + " and Policy Name from JSON is : " + jsonPolicyName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webDeviceTypeObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webDeviceTypeObject.addProperty("css", EQUALS, deviceTypeCss): null
+
+2020-08-28 17:35:09 - [TEST_STEP][PASSED] - webDeviceTypeObject = getText(webDeviceTypeObject): Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:10 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceType[i] = webDeviceTypeObject: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Type from Web : " + webDeviceType[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonDeviceType[i] = device_type: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Type from JSON : " + i + " " + jsonDeviceType[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - if (webDeviceType[i] == jsonDeviceType[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Type  from Web is : " + webDeviceType[i] + " and Device Type from JSON is : " + jsonDeviceType[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceIdObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceIdObject.addProperty("css", EQUALS, deviceIdCss): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceIdObject = getText(webDeviceIdObject): Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:10 - [MESSAGE][PASSED] - Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webDeviceId[i] = webDeviceIdObject: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Id from Web : " + webDeviceId[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonDeviceId[i] = device_id: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Id from JSON : " + i + " " + jsonDeviceId[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - if (webDeviceId[i] == jsonDeviceId[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Device Id from Web is : " + webDeviceId[i] + " and Device Id from JSON is : " + jsonDeviceId[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - poilcyCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(1) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - deviceTypeCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(2) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - applicationNameCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(2) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - deviceIdCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(3) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Slidpanel_noncompliance.json)): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webAppName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - WebapplicationName = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - WebapplicationName.addProperty("css", EQUALS, applicationNameCss): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - WebapplicationName = getText(WebapplicationName): Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:10 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webAppName[i] = WebapplicationName: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("App Name from Web : " + webAppName[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonApplicationName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - jsonApplicationName[i] = application_name: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonApplicationName[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - if (webAppName[i] == jsonApplicationName[i]): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - println("Application Name from Web is : " + webAppName[i] + " and Application Name from JSON is : " + jsonApplicationName[i] + " thus, it is in-correct"): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webPolicy = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webPolicy.addProperty("css", EQUALS, poilcyCss): null
+
+2020-08-28 17:35:10 - [TEST_STEP][PASSED] - webPolicy = getText(webPolicy): Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:11 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webPolicyName[i] = webPolicy: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Policy Name from Web : " + webPolicyName[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonPolicyName[i] = non_compliance_policy_name: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonPolicyName[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - if (webPolicyName[i] == jsonPolicyName[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Policy Name from Web is : " + webPolicyName[i] + " and Policy Name from JSON is : " + jsonPolicyName[i] + " thus, it is in-correct"): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceTypeObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceTypeObject.addProperty("css", EQUALS, deviceTypeCss): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceTypeObject = getText(webDeviceTypeObject): Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:11 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceType[i] = webDeviceTypeObject: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Type from Web : " + webDeviceType[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonDeviceType[i] = device_type: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Type from JSON : " + i + " " + jsonDeviceType[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - if (webDeviceType[i] == jsonDeviceType[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Type  from Web is : " + webDeviceType[i] + " and Device Type from JSON is : " + jsonDeviceType[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceIdObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceIdObject.addProperty("css", EQUALS, deviceIdCss): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceIdObject = getText(webDeviceIdObject): Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:11 - [MESSAGE][PASSED] - Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webDeviceId[i] = webDeviceIdObject: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Id from Web : " + webDeviceId[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsonDeviceId[i] = device_id: null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Id from JSON : " + i + " " + jsonDeviceId[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - if (webDeviceId[i] == jsonDeviceId[i]): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - println("Device Id from Web is : " + webDeviceId[i] + " and Device Id from JSON is : " + jsonDeviceId[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - poilcyCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(1) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - deviceTypeCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(2) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - applicationNameCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(2) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - deviceIdCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(3) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Slidpanel_noncompliance.json)): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - webAppName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - WebapplicationName = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - WebapplicationName.addProperty("css", EQUALS, applicationNameCss): null
+
+2020-08-28 17:35:11 - [TEST_STEP][PASSED] - WebapplicationName = getText(WebapplicationName): Text of object 'customObject' is: 'Github'
+
+2020-08-28 17:35:12 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Github'
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webAppName[i] = WebapplicationName: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("App Name from Web : " + webAppName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonApplicationName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonApplicationName[i] = application_name: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonApplicationName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - if (webAppName[i] == jsonApplicationName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Application Name from Web is : " + webAppName[i] + " and Application Name from JSON is : " + jsonApplicationName[i] + " thus, it is in-correct"): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webPolicy = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webPolicy.addProperty("css", EQUALS, poilcyCss): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webPolicy = getText(webPolicy): Text of object 'customObject' is: 'TrendMicroAVMedium'
+
+2020-08-28 17:35:12 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'TrendMicroAVMedium'
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webPolicyName[i] = webPolicy: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Policy Name from Web : " + webPolicyName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonPolicyName[i] = non_compliance_policy_name: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonPolicyName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - if (webPolicyName[i] == jsonPolicyName[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - else: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Policy Name from Web is : " + webPolicyName[i] + " and Policy Name from JSON is : " + jsonPolicyName[i] + " thus, it is in-correct"): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceTypeObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceTypeObject.addProperty("css", EQUALS, deviceTypeCss): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceTypeObject = getText(webDeviceTypeObject): Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:12 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceType[i] = webDeviceTypeObject: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Device Type from Web : " + webDeviceType[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - jsonDeviceType[i] = device_type: null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Device Type from JSON : " + i + " " + jsonDeviceType[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - if (webDeviceType[i] == jsonDeviceType[i]): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - println("Device Type  from Web is : " + webDeviceType[i] + " and Device Type from JSON is : " + jsonDeviceType[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceIdObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceIdObject.addProperty("css", EQUALS, deviceIdCss): null
+
+2020-08-28 17:35:12 - [TEST_STEP][PASSED] - webDeviceIdObject = getText(webDeviceIdObject): Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:13 - [MESSAGE][PASSED] - Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webDeviceId[i] = webDeviceIdObject: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Device Id from Web : " + webDeviceId[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonDeviceId[i] = device_id: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Device Id from JSON : " + i + " " + jsonDeviceId[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - if (webDeviceId[i] == jsonDeviceId[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Device Id from Web is : " + webDeviceId[i] + " and Device Id from JSON is : " + jsonDeviceId[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - poilcyCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(1) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - deviceTypeCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(1) > div:nth-child(2) > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - applicationNameCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(2) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - deviceIdCss = "#info-panel > div > div:nth-child(2) > div:nth-child(" + i + ") > div.dashboard-sidepanel__content-panel > div > div:nth-child(3) > div > div > div.dashboard-sidepanel__value": null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Slidpanel_noncompliance.json)): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webAppName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - WebapplicationName = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - WebapplicationName.addProperty("css", EQUALS, applicationNameCss): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - WebapplicationName = getText(WebapplicationName): Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:13 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Google'
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webAppName[i] = WebapplicationName: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("App Name from Web : " + webAppName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonApplicationName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonApplicationName[i] = application_name: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonApplicationName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - if (webAppName[i] == jsonApplicationName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Application Name from Web is : " + webAppName[i] + " and Application Name from JSON is : " + jsonApplicationName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webPolicy = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webPolicy.addProperty("css", EQUALS, poilcyCss): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webPolicy = getText(webPolicy): Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:13 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'McAfeeAV'
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webPolicyName[i] = webPolicy: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Policy Name from Web : " + webPolicyName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonPolicyName = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - jsonPolicyName[i] = non_compliance_policy_name: null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Activity Name from JSON : " + i + " " + jsonPolicyName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - if (webPolicyName[i] == jsonPolicyName[i]): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - println("Policy Name from Web is : " + webPolicyName[i] + " and Policy Name from JSON is : " + jsonPolicyName[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webDeviceTypeObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webDeviceTypeObject.addProperty("css", EQUALS, deviceTypeCss): null
+
+2020-08-28 17:35:13 - [TEST_STEP][PASSED] - webDeviceTypeObject = getText(webDeviceTypeObject): Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:14 - [MESSAGE][PASSED] - Text of object 'customObject' is: 'Windows'
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceType[i] = webDeviceTypeObject: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Type from Web : " + webDeviceType[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - jsonDeviceType = new java.util.ArrayList(): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - jsonDeviceType[i] = device_type: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Type from JSON : " + i + " " + jsonDeviceType[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - if (webDeviceType[i] == jsonDeviceType[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Type  from Web is : " + webDeviceType[i] + " and Device Type from JSON is : " + jsonDeviceType[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceIdObject = new com.kms.katalon.core.testobject.TestObject(customObject): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceIdObject.addProperty("css", EQUALS, deviceIdCss): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceIdObject = getText(webDeviceIdObject): Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:14 - [MESSAGE][PASSED] - Text of object 'customObject' is: '43da930da3da41abb4b2476cd405916b'
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - webDeviceId[i] = webDeviceIdObject: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Id from Web : " + webDeviceId[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - jsonDeviceId = new java.util.ArrayList(): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - jsonDeviceId[i] = device_id: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Id from JSON : " + i + " " + jsonDeviceId[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - if (webDeviceId[i] == jsonDeviceId[i]): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println("Device Id from Web is : " + webDeviceId[i] + " and Device Id from JSON is : " + jsonDeviceId[i] + " thus, it is correct"): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-28 17:35:14 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/L1 Dashboard/Summary Panel" time="13.702" classname="Test Cases/L1 Dashboard/Summary Panel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/L1 Dashboard/Summary Panel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2020-08-28 17:35:14 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Summary Panel: Test Cases/L1 Dashboard/Summary Panel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:35:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-08-28 17:35:15 - [TEST_STEP][PASSED] - custom_keyword.keywords.login(): custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:35:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 17:35:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 17:35:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 17:35:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 17:35:16 - [MESSAGE][PASSED] - Navigate to 'https://analytics.elm.pzt.dev.perfsec.com/dana-na/auth/url_YB2cw5imY9wCIjdD/welcome.cgi' successfully
+
+2020-08-28 17:35:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-28 17:35:20 - [MESSAGE][PASSED] - Text 'perry1' is set on object 'Object Repository/Login objects/username'
+
+2020-08-28 17:35:21 - [MESSAGE][PASSED] - Text 'dana123' is set on object 'Object Repository/Login objects/password'
+
+2020-08-28 17:35:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login objects/singin button'
+
+2020-08-28 17:35:23 - [MESSAGE][PASSED] - custom_keyword.keywords.login is PASSED
+
+2020-08-28 17:35:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-28 17:35:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - jsontxt = new java.io.File((java.lang.System.getProperty(user.dir) + /JSON/Summarypanel.json)): null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - result = slurper.parse(jsontxt): null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - Gateway_name = name: null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - Gateway_value = actual_value: null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - Gateway_totalvalue = total_value: null
+
+2020-08-28 17:35:25 - [TEST_STEP][PASSED] - UI_gateway = getText(findTestObject("Summary Panel/Gateways")): Text of object 'Object Repository/Summary Panel/Gateways' is: '0 of 1
+GATEWAYS'
+
+2020-08-28 17:35:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Gateways' is: '0 of 1
+GATEWAYS'
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - print(UI_gateway): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - g = UI_gateway.split(" "): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("g[" + i + "] = "" + g[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("g[" + i + "] = "" + g[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("g[" + i + "] = "" + g[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - final_string1 = g[2].substring(0, 1): null
+
+2020-08-28 17:35:26 - [TEST_STEP][FAILED] - verifyEqual(Gateway_value, g[0], CONTINUE_ON_FAILURE): Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:26 - [MESSAGE][FAILED] - Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - verifyEqual(Gateway_totalvalue, final_string1, CONTINUE_ON_FAILURE): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:35:26 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - User_name = name: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - Users_value = actual_value: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - Users_totalvalue = total_value: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - UI_users = getText(findTestObject("Summary Panel/Users")): Text of object 'Object Repository/Summary Panel/Users' is: '0 of 1000
+USERS'
+
+2020-08-28 17:35:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Users' is: '0 of 1000
+USERS'
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - print(UI_users): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - u = UI_users.split(" "): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("u[" + i + "] = "" + u[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("u[" + i + "] = "" + u[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - out.println("u[" + i + "] = "" + u[i] + """): null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - final_string1 = u[2].substring(0, 4): null
+
+2020-08-28 17:35:26 - [TEST_STEP][FAILED] - verifyEqual(Users_value, u[0], CONTINUE_ON_FAILURE): Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:26 - [MESSAGE][FAILED] - Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - verifyEqual(Users_totalvalue, final_string1, CONTINUE_ON_FAILURE): Actual object '1,000' and expected object '1000' are equal
+
+2020-08-28 17:35:26 - [MESSAGE][PASSED] - Actual object '1,000' and expected object '1000' are equal
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - Device_name = name: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - Device_value = actual_value: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - Device_totalvalue = total_value: null
+
+2020-08-28 17:35:26 - [TEST_STEP][PASSED] - UI_devices = getText(findTestObject("Summary Panel/Devices")): Text of object 'Object Repository/Summary Panel/Devices' is: '0 of 1
+DEVICES'
+
+2020-08-28 17:35:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Devices' is: '0 of 1
+DEVICES'
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - print(UI_devices): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - d = UI_devices.split(" "): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("d[" + i + "] = "" + d[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("d[" + i + "] = "" + d[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("d[" + i + "] = "" + d[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - final_string3 = d[2].substring(0, 1): null
+
+2020-08-28 17:35:27 - [TEST_STEP][FAILED] - verifyEqual(Device_value, d[0], CONTINUE_ON_FAILURE): Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:27 - [MESSAGE][FAILED] - Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - verifyEqual(Device_totalvalue, final_string3, CONTINUE_ON_FAILURE): Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:35:27 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - Application_name = name: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - Application_value = actual_value: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - Application_totalvalue = total_value: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - UI_Applications = getText(findTestObject("Summary Panel/Applications")): Text of object 'Object Repository/Summary Panel/Applications' is: '0 of 15
+APPLICATIONS'
+
+2020-08-28 17:35:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Applications' is: '0 of 15
+APPLICATIONS'
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - print(UI_Applications): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - a = UI_Applications.split(" "): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("a[" + i + "] = "" + a[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - print(a[i]): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("a[" + i + "] = "" + a[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - print(a[i]): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - out.println("a[" + i + "] = "" + a[i] + """): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - print(a[i]): null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - final_string4 = a[2].substring(0, 2): null
+
+2020-08-28 17:35:27 - [TEST_STEP][FAILED] - verifyEqual(Application_value, a[0], CONTINUE_ON_FAILURE): Unable to verify equal between actual object '2' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '2' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:27 - [MESSAGE][FAILED] - Unable to verify equal between actual object '2' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '2' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - verifyEqual(Application_totalvalue, final_string4, CONTINUE_ON_FAILURE): Actual object '15' and expected object '15' are equal
+
+2020-08-28 17:35:27 - [MESSAGE][PASSED] - Actual object '15' and expected object '15' are equal
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - non_compliance_name = name: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - non_compliance_value = actual_value: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - non_compliance_totalvalue = total_value: null
+
+2020-08-28 17:35:27 - [TEST_STEP][PASSED] - UI_non_compliance = getText(findTestObject("Summary Panel/Non-complaince")): Text of object 'Object Repository/Summary Panel/Non-complaince' is: '5
+NON-COMPLIANCES'
+
+2020-08-28 17:35:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Non-complaince' is: '5
+NON-COMPLIANCES'
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - print(UI_non_compliance): null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - n = UI_non_compliance.substring(0, 1): null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - verifyEqual(non_compliance_totalvalue, n, CONTINUE_ON_FAILURE): Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:35:28 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - anomalies_name = name: null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - anomalies_value = actual_value: null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - anomalies_totalvalue = total_value: null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - UI_anomalies = getText(findTestObject("Summary Panel/Anomalies")): Text of object 'Object Repository/Summary Panel/Anomalies' is: '40
+ANOMALIES'
+
+2020-08-28 17:35:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Summary Panel/Anomalies' is: '40
+ANOMALIES'
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - aa = UI_anomalies.substring(0, 2): null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - verifyEqual(anomalies_totalvalue, aa, CONTINUE_ON_FAILURE): Actual object '40' and expected object '40' are equal
+
+2020-08-28 17:35:28 - [MESSAGE][PASSED] - Actual object '40' and expected object '40' are equal
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-08-28 17:35:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 17:35:14 - [TEST_CASE][FAILED] - Test Cases/L1 Dashboard/Summary Panel: Test Cases/L1 Dashboard/Summary Panel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at Summary Panel.run(Summary Panel:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 17:34:16 - [TEST_SUITE][FAILED] - Summary: Test Cases/L1 Dashboard/Map-tooltip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-08-28 17:34:16 - [TEST_SUITE][FAILED] - Summary: Test Cases/L1 Dashboard/Map-tooltip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '7' and expected text '' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Map-tooltip.run(Map-tooltip:156)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598616255004.run(TempTestSuite1598616255004.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

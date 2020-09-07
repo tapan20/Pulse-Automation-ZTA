@@ -1,0 +1,22 @@
+[
+	{
+		"name": "amazon",
+		"value": 2
+	},
+	{
+		"name": "zoom",
+		"value": 1
+	},
+	{
+		"name": "zulip",
+		"value": 1
+	},
+	{
+		"name": "slack",
+		"value": 1
+	},
+	{
+		"name": "atlassian",
+		"value": 1
+	}
+]

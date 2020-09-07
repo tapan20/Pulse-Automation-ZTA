@@ -1,0 +1,61 @@
+{
+	"data_points": [
+		{
+			"active_applications": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveApplications",
+				"status": 0,
+				"value": 7
+			},
+			
+			"active_gateways": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveGateways",
+				"status": 76,
+				"value": 1
+			},
+			"active_devices": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveDevices",
+				"status": 100,
+				"value": 2
+			},
+			"active_users": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveUsers",
+				"status": 100,
+				"value": 5
+			},
+			"city": "Ahmedabad",
+			"continent": "Asia",
+			"country": "India",
+			"critical_errors": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "Critical Errors",
+				"status": 100,
+				"value": 5
+			},
+			"granularity": "city",
+			"is_errored": 0,
+			"latitude": 23.0276,
+			"longitude": 72.5871,
+			"non_compliance_count": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "NonCompliance",
+				"status": 100,
+				"value": 33
+			},
+			"status": 76
+		}
+	],
+	"response_type": "DataPointsCollectionEntity",
+	"locationDetail": {
+		"iso_code": "US"
+	}
+}
