@@ -37,15 +37,24 @@ WebUI.sendKeys(findTestObject('Login objects/input_Password_password'), Keys.cho
 
 WebUI.delay(2)
 
-CustomKeywords.'custom_keyword.keywords.apply_filter'()
+CustomKeywords.'custom_keyword.keywords.apply_CurrentDayfilter'()
 
-CustomKeywords.'custom_keyword.L1.top_Gateways'()
 
-CustomKeywords.'custom_keyword.L1.top_Locations'()
-
-//CustomKeywords.'custom_keyword.L1.top_application'()
-
-//CustomKeywords.'custom_keyword.Applitools.Custom_capture'(1920, 800)
-
+//
+CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active gateways')
+//
+//CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active locations')
+//
+//CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active applications')
+//CustomKeywords.'custom_keyword.L11.top_Gateways'()
+//CustomKeywords.'custom_keyword.L11.top_Locations'()
+//CustomKeywords.'custom_keyword.keywords.active_anomalies'()
+//
+//CustomKeywords.'custom_keyword.keywords.Non_compliance'()
+//
+//CustomKeywords.'custom_keyword.L1_copy.top_Gateways'()
+//
+//CustomKeywords.'custom_keyword.L1_copy.top_Locations'()
+//CustomKeywords.'custom_keyword.Applitools.Custom_capture'(GlobalVariable.Height, GlobalVariable.Width)
 WebUI.closeBrowser()
 
