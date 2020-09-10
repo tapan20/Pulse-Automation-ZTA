@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Apply filter</name>
+   <name>appCount</name>
    <tag></tag>
-   <elementGuidId>fff79fce-ae6a-4a6d-92fe-dbbe110236c1</elementGuidId>
+   <elementGuidId>e069150b-14a6-497d-9d21-aa0833245ec3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#dashboard > div:nth-child(3) > div > button</value>
+         <value>#info-panel > div > div.dashboard-sidepanel__header > div > div.dashboard-sidepanel__title-section--count</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;dashboard&quot;]/div[2]/div/button</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
