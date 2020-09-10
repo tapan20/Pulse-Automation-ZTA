@@ -35,9 +35,24 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
+import java.text.SimpleDateFormat
+import com.kms.katalon.core.util.KeywordUtil
 
 public class keywords {
+	
+//	def date = new Date()
+//	def sdf = new SimpleDateFormat("dd:MMM:yyyy-hh:mm:ss")
+//	println sdf.format(date)
+//
+//	File out = new File(System.getProperty('user.dir') + '/Logs/' + sdf.format(date) + '.log')
+//	if (out.exists()) {
+//		out.delete()
+//	}
+//	KeywordUtil.metaClass.static.logInfo = { String message ->
+//		out.append(message)
+//		delegate.logger.logInfo(message)
+//	}
+
 
 
 	@Keyword
@@ -55,141 +70,99 @@ public class keywords {
 		WebUI.setText(findTestObject('Login objects/password'), GlobalVariable.password)
 
 		WebUI.click(findTestObject('Login objects/singin button'))
+
+		//WebUI.sendKeys(findTestObject('Login objects/singin button'), Keys.chord(Keys.ENTER))
+
+		//WebUI.click(findTestObject('Object Repository/Login objects/singin button'))
 	}
 
 
 
 	@Keyword
-	def active_anomalies(jsonfile,  css,  tooltip)  {
-		//return json result
+	def active_anomalies()  {
+		//for log file date
+		
+		def date = new Date()
+		def sdf = new SimpleDateFormat("dd:MMM:yyyy-hh:mm:ss")
+		println sdf.format(date)
 
-		println(jsonfile)
-		println(css)
-		println(tooltip)
+		File out = new File(System.getProperty('user.dir') + '/Logs/' + sdf.format(date) + '.log')
+		if (out.exists()) {
+			out.delete()
+		}
+		KeywordUtil.metaClass.static.logInfo = { String message ->
+			out.append(message)
+			delegate.logger.logInfo(message)
+		}
+
+		KeywordUtil.logInfo("Anomalies test-case \n")
 
 		def slurper = new JsonSlurper()
 
-
-
-		File jsontxt = new File(jsonfile)
-
-
+		File jsontxt = new File(System.getProperty('user.dir') + '/JSON/ActiveAnomalies.json')
 
 		def result = slurper.parse(jsontxt)
 
+		int loop_count = result.buckets.size()
 
-
-		//    return result
-
-
-
-		// TestObject myTestObject = new TestObject('customObject')
-		//   TestObject    Tooltip = new TestObject('customObject')
-
-
-
+		print(loop_count)
 
 		try {
-
-
 			ArrayList<String> UI = new ArrayList<String>()
-
-
 
 			ArrayList<String> JSON_Name = new ArrayList<String>()
 
-
-
 			ArrayList<String> JSON_Value = new ArrayList<String>()
 
-
-
-			for (int i = 0; i < 2;) {
-
-
-				(JSON_Name[i]) = result.buckets[i].name
-
-
-				(JSON_Value[i]) = result.buckets[i].value
-
-
-
-
-				//print("name is " + JSON[i]  )
-
-
+			for (int i = 0; i < loop_count; i++) {
+				String css = ('#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(' +
+						(i + 1)) + ') > g > g > g > g > g > g > g > g > path'
 
 				//String css = '#topRiskyUsersChart > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group > g > g:nth-child(2) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(3) > g > g > g > g.amcharts-Sprite-group.amcharts-Container-group > g > g > g > g:nth-child(' + i + ')'
-				//    MY_TEST_OBJECT = new TestObject('customObject')
+				TestObject Anomalies = new TestObject('customObject')
 
-				TestObject myTestObject = new TestObject('customObject')
+				Anomalies.addProperty('css', ConditionType.EQUALS, css)
 
+				System.out.println(css)
 
-
-				myTestObject.addProperty('css', ConditionType.EQUALS, css)
-
-
-
-				//	System.out.println(css)
-
-
-
-				WebUI.mouseOver(myTestObject)
-
-
+				WebUI.mouseOver(Anomalies)
 
 				try {
-					//    Tooltip = new TestObject('customObject')
+					TestObject Tooltip_anomalies = new TestObject('customObject')
 
-					TestObject Tool = new TestObject('customObject')
+					Tooltip_anomalies.addProperty('css', ConditionType.EQUALS, '#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan')
 
-					Tool.addProperty('css', ConditionType.EQUALS, tooltip)
-
-
-					(UI[(i + 1)]) = WebUI.getText(Tool)
-
-
+					(UI[(i + 1)]) = WebUI.getText(Tooltip_anomalies)
 
 					print(UI[(i + 1)])
 
-
-
 					String[] a = (UI[(i + 1)]).split(':')
-
-
 
 					System.out.println(a[0])
 
+					for (int j = 0; j < loop_count; j++) {
+						if ((a[0]) == result.buckets[j].name) {
+							if ((a[1]).trim() == result.buckets[j].value) {
+								print('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.buckets[j].value)
+								KeywordUtil.logInfo('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.buckets[j].value + '\n')
+							} else {
 
 
-					WebUI.verifyMatch(a[0], JSON_Name[i], false)
-
-
-
-					System.out.println((a[1]) + (JSON_Value[i]))
-
-
-
-					WebUI.verifyEqual((a[1]).trim(), JSON_Value[i] //if (JSON_Value[i].compareTo(a[1])){
-							) //    print("values are matched")
-					//}
-					//else {
-					//    print("values are not matched")
-					//}
-					//WebUI.verifyMatch(a[1], JSON_Value[i], false)
-					i++
+								print('Incorrect \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.buckets[j].value)
+								KeywordUtil.logInfo('Incorrect \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.buckets[j].value + '\n')
+							}
+						}
+					}
 				}
-
 				catch (Exception e) {
 					e.print('No tooltip found')
-					print(e)
 				}
 			}
 		}
 		catch (Exception e) {
 			e.print('test end')
-			print(e)
 		}
+
 
 
 
@@ -221,184 +194,85 @@ public class keywords {
 
 
 	}
+	
+	
+	
 	@Keyword
 
-	def active_applications(){
+	def Non_compliance(){
 
+		def date = new Date()
+		def sdf = new SimpleDateFormat("dd:MMM:yyyy-hh:mm:ss")
+		println sdf.format(date)
 
+		File out = new File(System.getProperty('user.dir') + '/Logs/' + sdf.format(date) + '.log')
+		if (out.exists()) {
+			out.delete()
+		}
+		KeywordUtil.metaClass.static.logInfo = { String message ->
+			out.append(message)
+			delegate.logger.logInfo(message)
+		}
+
+		KeywordUtil.logInfo("Non-compliance test-case \n")
 		def slurper = new JsonSlurper()
 
-
-
-		File jsontxt = new File('/Users/perry.gami/Downloads/active_application.json')
-
-
+		File jsontxt = new File(System.getProperty('user.dir') + '/JSON/Non-compliance.json')
 
 		def result = slurper.parse(jsontxt)
 
-
 		try {
-
-
 			ArrayList<String> UI = new ArrayList<String>()
-
-
 
 			ArrayList<String> JSON_Name = new ArrayList<String>()
 
-
-
 			ArrayList<String> JSON_Value = new ArrayList<String>()
 
+			for (int i = 0; i < result.non_compliance_policies.size(); i++) {
+				String css = ('#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(' +
+						(i + 1)) + ') > g > g > path'
 
+				//String css = '#topRiskyUsersChart > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group > g > g:nth-child(2) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(3) > g > g > g > g.amcharts-Sprite-group.amcharts-Container-group > g > g > g > g:nth-child(' + i + ')'
+				
+				TestObject Non_compliance = new TestObject('customObject')
+				
+				Non_compliance.addProperty('css', ConditionType.EQUALS, css)
 
-			for (int i = 0; i < 7; i++) {
+				print(css)
 
-
-				//(JSON_Name[i]) = result[i].name
-
-
-				(JSON_Value[i]) = result[i].value
-
-
-
-				TestObject myTestObject = new TestObject('customObject')
-
-				String css = '#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child('+ (i+1) +') > g > g > g > g > path'
-
-				myTestObject.addProperty('css', ConditionType.EQUALS, css)
-
-				WebUI.mouseOver(myTestObject)
-
-
+				WebUI.mouseOver(Non_compliance)
 
 				try {
+					TestObject  Tooltip_nc = new TestObject('customObject')
+					Tooltip_nc.addProperty('css', ConditionType.EQUALS, '#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan')
 
-
-					TestObject Tool = new TestObject('customObject')
-
-					Tool.addProperty('css', ConditionType.EQUALS, '#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan')
-
-
-					(UI[(i + 1)]) = WebUI.getText(Tool)
-
-
+					(UI[(i + 1)]) = WebUI.getText(Tooltip_nc)
 
 					print(UI[(i + 1)])
-
-
-
-					//	String[] a = (UI[(i + 1)]).split(':')
-
-
-
-					//	System.out.println(a[0])
-
-
-
-					//WebUI.verifyMatch(a[0], JSON_Name[i], false)
-
-
-
-					//	System.out.println((a[1]) + (JSON_Value[i]))
-
-
-
-					WebUI.verifyEqual(UI[(i + 1)], JSON_Value[i] )
-				}
-
-				catch (Exception e) {
-					e.print('No tooltip found')
-					print(e)
-				}
-			}
-		}
-		catch (Exception e) {
-			e.print('test end')
-			print(e)
-		}
-
-
-
-
-
-
-	}
-
-
-	@Keyword
-	def active_location(){
-
-		def slurper = new JsonSlurper()
-
-
-
-		File jsontxt = new File('/Users/perry.gami/Downloads/top_location.json')
-
-
-
-		def result = slurper.parse(jsontxt)
-
-
-		try {
-
-
-			ArrayList<String> UI = new ArrayList<String>()
-
-
-
-			ArrayList<String> JSON_Name = new ArrayList<String>()
-
-
-
-			ArrayList<String> JSON_Value = new ArrayList<String>()
-
-
-
-			for (int i = 0; i < 2; i++) {
-
-
-				//(JSON_Name[i]) = result[i].name
-
-
-				(JSON_Value[i]) = result[i].value
-
-
-
-				TestObject myTestObject = new TestObject('customObject')
-
-				String css = '#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group.amcharts-RadarChart-group > g > g > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(1) > g > g:nth-child(1) > g > g > g > g > g > g > g > g:nth-child('+ (i+1) +') > g > g > g > g > path'
-
-				myTestObject.addProperty('css', ConditionType.EQUALS, css)
-
-				WebUI.mouseOver(myTestObject)
-
-
-
-				try {
-
-
-					TestObject Tool = new TestObject('customObject')
-
-					Tool.addProperty('css', ConditionType.EQUALS, '#dashboard-radar-access-locations > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan')
-
-
-					(UI[(i + 1)]) = WebUI.getText(Tool)
-
-
-
-					print(UI[(i + 1)])
-
-
 
 					String[] a = (UI[(i + 1)]).split(':')
 
+					println(a[0])
+
+					for (int j = 0; j < result.non_compliance_policies.size(); j++) {
+						print(result.non_compliance_policies[j].name)
+
+						if ((a[0]) == result.non_compliance_policies[j].name) {
+							if ((a[1]).trim().toString() == result.non_compliance_policies[j].value.toString()) {
 
 
+								print('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.non_compliance_policies[j].value)
+								KeywordUtil.logInfo('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.non_compliance_policies[j].value + '\n')
 
-					WebUI.verifyEqual(a[0], JSON_Value[i], true)
+								break
+							} else {
+								print('Incorrect \n' + '  value from UI is ' + a[1].trim()  + '  value from json is ' +  result.non_compliance_policies[j].value)
+								KeywordUtil.logInfo('Incorrect \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  result.non_compliance_policies[j].value + '\n')
+								break
+							}
+						}
+					}
 				}
-
 				catch (Exception e) {
 					e.print('No tooltip found')
 					print(e)
@@ -409,9 +283,6 @@ public class keywords {
 			e.print('test end')
 			print(e)
 		}
-
-
-
 
 
 

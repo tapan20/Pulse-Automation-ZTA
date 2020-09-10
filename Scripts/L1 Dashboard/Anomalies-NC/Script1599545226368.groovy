@@ -14,14 +14,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import groovy.json.JsonSlurper as JsonSlurper
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 CustomKeywords.'custom_keyword.keywords.login'()
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 CustomKeywords.'custom_keyword.keywords.apply_filter'()
+
+WebUI.delay(2)
+
+CustomKeywords.'custom_keyword.keywords.active_anomalies'()
+
+WebUI.delay(2)
 
 CustomKeywords.'custom_keyword.keywords.Non_compliance'()
 

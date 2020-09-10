@@ -97,7 +97,7 @@ public class L1 {
 				}
 
 			}
-		//	log.logInfo("Top Applications")
+			//	log.logInfo("Top Applications")
 			for (int j = 0; j < result.size(); j++) {
 
 				if (JSON_Name.contains(appName[j])) {
@@ -267,7 +267,7 @@ public class L1 {
 
 				if (JSON_Name.contains(locName[j])) {
 					def index = JSON_Name.indexOf(locName[j])
-				//	print(index)
+					//	print(index)
 					if (WebUI.verifyEqual(tooltip[j], JSON_Value[index])) {
 						println('true')
 					} else {
