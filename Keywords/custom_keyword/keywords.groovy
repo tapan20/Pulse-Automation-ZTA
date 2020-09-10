@@ -69,9 +69,11 @@ public class keywords {
 
 		WebUI.setText(findTestObject('Login objects/password'), GlobalVariable.password)
 
+		WebUI.click(findTestObject('Login objects/singin button'))
+
 		//WebUI.sendKeys(findTestObject('Login objects/singin button'), Keys.chord(Keys.ENTER))
 
-		WebUI.click(findTestObject('Object Repository/Login objects/singin button'))
+		//WebUI.click(findTestObject('Object Repository/Login objects/singin button'))
 	}
 
 
