@@ -97,6 +97,19 @@ public class L1_003 {
 				size = result_json.top_active_applications.result.applications.size()
 				break
 
+			case 'Anamolies':
+				JSON_Name = result_json.anomalies.result.buckets.name
+				JSON_Value = result_json.anomalies.result.buckets.value
+				size = result_json.anomalies.result.buckets.size()
+				break
+
+			case 'NonCompliance':
+				JSON_Name = result_json.top_non_compliance.result.non_compliance_policies.name
+				JSON_Value = result_json.top_non_compliance.result.non_compliance_policies.value
+				size = result_json.top_non_compliance.result.non_compliance_policies.size()
+				break
+
+
 			default:
 				print('')
 				break
@@ -141,6 +154,22 @@ public class L1_003 {
 				tooltipCSS = '#dashboard-radar-apps-accessed > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan'
 				break
 
+			case 'Anamolies':
+				mouseHoverCss = ('#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) > g > g:nth-child(' +
+				(i + 1)) + ') > g > g > g > g > g > g > g > g > path'
+
+			// 5 or 6
+				tooltipCSS = '#dashboard-l1-anomalies-chart > div:nth-child(2) > svg > g > g.amcharts-Container > g:nth-child(2) > g > g:nth-child(6) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan'
+				break
+
+			case 'NonCompliance':
+				mouseHoverCss = ('#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(1) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g > g:nth-child(1) > g:nth-child(2) > g:nth-child(3) >g > g > g > g > g > g > g > g:nth-child(' +
+				(i + 1)) + ') > g > g > path'
+
+
+			tooltipCSS = '#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g.amcharts-Container  > g:nth-child(2) > g > g:nth-child(5) > g.amcharts-Container.amcharts-Tooltip > g > g > text > tspan'
+
+				//tooltipCSS = '#dashboard-l1-non-compliance > div:nth-child(2) > svg > g > g:nth-child(2) > g:nth-child(2) > g > g:nth-child(5) > g:nth-child(2) > g > g > text > tspan'
 			default:
 				print('')
 				break
@@ -160,7 +189,7 @@ public class L1_003 {
 		//logger implementation
 		def log = loggedFile()
 
-		WebUI.scrollToElement(findTestObject('Filter object/ScrollToApplications'), 2)
+		//WebUI.scrollToElement(findTestObject('Filter object/ScrollToApplications'), 2)
 
 		try {
 			ArrayList<String> tooltip = new ArrayList<String>()
@@ -180,11 +209,20 @@ public class L1_003 {
 				def mouseHoverCss = obj1.mouseHoverCss
 				def tooltipCSS = obj1.tooltipCSS
 
+				//				if(!(scriptName == 'Anamolies' || scriptName == 'NonCompliance')){
+				//					//Fetching name from UI
+				//									String topApplicationsValueCSS = valueCSS
+				//									def topApplications_Value = new TestObject('customObject')
+				//									topApplications_Value.addProperty('css', ConditionType.EQUALS, topApplicationsValueCSS)
+				//									(appName[i]) = WebUI.getText(topApplications_Value)
+				//
+				//				}
+
 				//Fetching name from UI
-				String topApplicationsValueCSS = valueCSS
-				def topApplications_Value = new TestObject('customObject')
-				topApplications_Value.addProperty('css', ConditionType.EQUALS, topApplicationsValueCSS)
-				(appName[i]) = WebUI.getText(topApplications_Value)
+				//				String topApplicationsValueCSS = valueCSS
+				//				def topApplications_Value = new TestObject('customObject')
+				//				topApplications_Value.addProperty('css', ConditionType.EQUALS, topApplicationsValueCSS)
+				//				(appName[i]) = WebUI.getText(topApplications_Value)
 
 				//Fecting value from Tooltip
 				String topApplicationsTooltipCSS = mouseHoverCss
@@ -197,14 +235,42 @@ public class L1_003 {
 					topApplications_Tooltip.addProperty('css', ConditionType.EQUALS, tooltipCSS)
 					WebUI.waitForElementPresent(topApplications_Tooltip, 2)
 					(tooltip[i]) = WebUI.getText(topApplications_Tooltip)
+
+
+					if(scriptName == 'Anamolies' || scriptName == 'NonCompliance')
+					{
+						ArrayList<String> UI = new ArrayList<String>()
+						(UI[(i + 1)]) = tooltip[i]
+
+						print(UI[(i + 1)])
+
+						String[] a = (UI[(i + 1)]).split(':')
+
+						System.out.println(a[0])
+
+						for(int j =0; j < size ; j++){
+							if ((a[0]) == JSON_Name[j]) {
+								if ((a[1]).trim().toString() == JSON_Value[j].toString()) {
+									print('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  JSON_Value[j] + '\n')
+									KeywordUtil.logInfo('correct \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  JSON_Value[j] + '\n \n')
+								} else {
+
+
+									print('Incorrect \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  JSON_Value[j] + '\n')
+									KeywordUtil.logInfo('Incorrect \n' + '  value from UI is ' + a[1].trim() + '  value from json is ' +  JSON_Value[j] + '\n \n')
+								}
+							}
+						}
+					}
+
 				}
 				catch (Exception e) {
 					e.print('No tooltip found')
 				}
-				println(JSON_Name[i])
-				println(JSON_Value[i])
-				println(appName[i])
-				println(tooltip[i])
+				//				println(JSON_Name[i])
+				//				println(JSON_Value[i])
+				//				println(appName[i])
+				//				println(tooltip[i])
 			}
 
 			for (int j = 0; j < size; j++) {

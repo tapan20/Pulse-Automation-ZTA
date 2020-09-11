@@ -250,13 +250,17 @@
          "chart_timestamp":1599589494,
          "non_compliance_policies":[
             {
-               "name":"mcafee antivirus low",
-               "value":1
-            },
-            {
-               "name":"mcafee antivirus medium",
-               "value":1
-            }
+			"name": "mcafeeav",
+			"value": 2
+		},
+		{
+			"name": "symantecavlow",
+			"value": 1
+		},
+		{
+			"name": "symantecavmedium",
+			"value": 1
+		}
          ],
          "title":"Non-compliance"
       }

@@ -6,20 +6,19 @@
 		"status": 0,
 		"total_value": 1000
 	},
-	
 	{
 		"actual_value": 0,
 		"description": "Active devices",
 		"name": "devices",
 		"status": 0,
-		"total_value": 1
+		"total_value": 3
 	},
 	{
 		"actual_value": 0,
 		"description": "Active gateways",
 		"name": "gateways",
 		"status": 0,
-		"total_value": 1
+		"total_value": 3
 	},
 	{
 		"actual_value": 0,
@@ -29,17 +28,17 @@
 		"total_value": 15
 	},
 	{
-		"actual_value": 0,
+		"actual_value": 2,
 		"description": "Non-compliance count",
 		"name": "non_compliance",
-		"status": 0,
-		"total_value": 0
+		"status": 100,
+		"total_value": 2
 	},
 	{
-		"actual_value": 35,
+		"actual_value": 3,
 		"description": "Anomalies count",
 		"name": "anomalies",
 		"status": 100,
-		"total_value": 35
+		"total_value": 3
 	}
 ]

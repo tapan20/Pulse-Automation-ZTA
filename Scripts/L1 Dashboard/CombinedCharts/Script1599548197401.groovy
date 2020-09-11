@@ -37,14 +37,16 @@ WebUI.sendKeys(findTestObject('Login objects/input_Password_password'), Keys.cho
 
 WebUI.delay(2)
 
-CustomKeywords.'custom_keyword.keywords.apply_CurrentDayfilter'()
-
+CustomKeywords.'custom_keyword.keywords.apply_filter'()
 
 //
 CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active gateways')
+
 //
-//CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active locations')
-//
+CustomKeywords.'custom_keyword.L1_003.dataCompare'('Anamolies')
+
+CustomKeywords.'custom_keyword.L1_003.dataCompare'('NonCompliance')
+
 //CustomKeywords.'custom_keyword.L1_003.dataCompare'('Top active applications')
 //CustomKeywords.'custom_keyword.L11.top_Gateways'()
 //CustomKeywords.'custom_keyword.L11.top_Locations'()
