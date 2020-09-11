@@ -104,7 +104,7 @@ public class keywords {
 	def apply_filter(){
 
 		WebUI.click(findTestObject('Filter object/filter_button'))
-		WebUI.click(findTestObject('Filter object/set_filter_lentills'))
+		WebUI.click(findTestObject('Filter object/set_filter'))
 		WebUI.click(findTestObject('Filter object/down_arrow'))
 		WebUI.click(findTestObject('Filter object/last calander week'))
 		WebUI.click(findTestObject('Filter object/Apply filter'))
@@ -128,7 +128,7 @@ public class keywords {
 
 		KeywordUtil.logInfo("Anomalies test-case \n \n")
 
-		
+
 		int loop_count = GlobalVariable.result.anomalies.result.buckets.size()
 
 		print('loop count is ' + loop_count)
@@ -145,7 +145,7 @@ public class keywords {
 						(i + 1)) + ') > g > g > g > g > g > g > g > g > path'
 
 				//creating run time locator object to hover the chart element
-					
+
 				TestObject Anomalies = new TestObject('customObject')
 
 				Anomalies.addProperty('css', ConditionType.EQUALS, css)
@@ -224,7 +224,7 @@ public class keywords {
 						(i + 1)) + ') > g > g > path'
 
 				//String css = '#topRiskyUsersChart > div:nth-child(2) > svg > g > g.amcharts-Container > g.amcharts-Sprite-group.amcharts-Container-group.amcharts-Component-group.amcharts-Chart-group.amcharts-SerialChart-group.amcharts-XYChart-group > g > g:nth-child(2) > g > g > g > g:nth-child(1) > g > g:nth-child(1) > g.amcharts-Container > g:nth-child(3) > g > g > g > g.amcharts-Sprite-group.amcharts-Container-group > g > g > g > g:nth-child(' + i + ')'
-					//run time object for Non-compliance blocks reading on chart
+				//run time object for Non-compliance blocks reading on chart
 				TestObject Non_compliance = new TestObject('customObject')
 
 				Non_compliance.addProperty('css', ConditionType.EQUALS, css)
@@ -285,10 +285,10 @@ public class keywords {
 	def Summary_panel(){
 
 
-		
-		
+
+
 		KeywordUtil.logInfo("Summary Panel \n \n")
-		
+
 		ArrayList<String> Summary_tooltip = new ArrayList<String>()
 		//To read all the summary data one by one from UI
 		for (int j = 0; j < 6; j++) {
@@ -397,7 +397,7 @@ public class keywords {
 						}
 
 						break
-						
+
 						//For devices
 					} else if (GlobalVariable.result.summary.result[k].name == 'devices') {
 						def Device_value = GlobalVariable.result.summary.result[j].actual_value
@@ -438,7 +438,7 @@ public class keywords {
 						}
 
 						break
-						
+
 						//For applications
 					} else if (GlobalVariable.result.summary.result[k].name == 'applications') {
 						def Application_value = GlobalVariable.result.summary.result[j].actual_value
@@ -481,7 +481,7 @@ public class keywords {
 						break
 
 
-						
+
 						//For Non-compliance
 					} else if (GlobalVariable.result.summary.result[k].name == 'non_compliance') {
 						def  non_compliance_value = GlobalVariable.result.summary.result[j].actual_value
@@ -505,7 +505,7 @@ public class keywords {
 							KeywordUtil.logInfo('NC values are not  matched \n'+ 'from json  ' + non_compliance_totalvalue + '\n' + 'from UI  '+ n + '\n' )
 						}
 						break
-						
+
 						//For anomalies
 					} else if (GlobalVariable.result.summary.result[k].name == 'anomalies') {
 						def anomalies_name = GlobalVariable.result.summary.result[j].name

@@ -1,18 +1,18 @@
-{
-	"chart_timestamp": 1599545659,
-	"non_compliance_policies": [
-		{
-			"name": "mcafeeav",
-			"value": 2
-		},
-		{
-			"name": "symantecavlow",
-			"value": 1
-		},
-		{
-			"name": "symantecavmedium",
-			"value": 1
-		}
-	],
-	"title": "Non-compliance"
-}
+	{
+		"chart_timestamp": 1599545659,
+		"non_compliance_policies": [
+			{
+				"name": "mcafeeav",
+				"value": 2
+			},
+			{
+				"name": "symantecavlow",
+				"value": 1
+			},
+			{
+				"name": "symantecavmedium",
+				"value": 1
+			}
+		],
+		"title": "Non-compliance"
+	}

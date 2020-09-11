@@ -6,9 +6,15 @@
 				"has_errors": false,
 				"name": "ActiveApplications",
 				"status": 0,
-				"value": 7
+				"value": 6
 			},
-			
+			"active_devices": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveDevices",
+				"status": 100,
+				"value": 1
+			},
 			"active_gateways": {
 				"fill_percent": 0,
 				"has_errors": false,
@@ -16,21 +22,14 @@
 				"status": 76,
 				"value": 1
 			},
-			"active_devices": {
-				"fill_percent": 0,
-				"has_errors": false,
-				"name": "ActiveDevices",
-				"status": 100,
-				"value": 2
-			},
 			"active_users": {
 				"fill_percent": 0,
 				"has_errors": false,
 				"name": "ActiveUsers",
-				"status": 100,
-				"value": 5
+				"status": 0,
+				"value": 6
 			},
-			"city": "Ahmedabad",
+			"city": "Bengaluru",
 			"continent": "Asia",
 			"country": "India",
 			"critical_errors": {
@@ -38,24 +37,73 @@
 				"has_errors": false,
 				"name": "Critical Errors",
 				"status": 100,
-				"value": 5
+				"value": 2
 			},
 			"granularity": "city",
 			"is_errored": 0,
-			"latitude": 23.0276,
-			"longitude": 72.5871,
+			"latitude": 12.9719,
+			"longitude": 77.5937,
 			"non_compliance_count": {
 				"fill_percent": 0,
 				"has_errors": false,
 				"name": "NonCompliance",
 				"status": 100,
-				"value": 33
+				"value": 2
+			},
+			"status": 76
+		},
+		{
+			"active_applications": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveApplications",
+				"status": 0,
+				"value": 3
+			},
+			"active_devices": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveDevices",
+				"status": 100,
+				"value": 1
+			},
+			"active_gateways": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveGateways",
+				"status": 76,
+				"value": 1
+			},
+			"active_users": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "ActiveUsers",
+				"status": 0,
+				"value": 6
+			},
+			"city": "San Jose",
+			"continent": "North America",
+			"country": "United States",
+			"critical_errors": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "Critical Errors",
+				"status": 100,
+				"value": 2
+			},
+			"granularity": "city",
+			"is_errored": 0,
+			"latitude": 37.3388,
+			"longitude": -121.8914,
+			"non_compliance_count": {
+				"fill_percent": 0,
+				"has_errors": false,
+				"name": "NonCompliance",
+				"status": 100,
+				"value": 17
 			},
 			"status": 76
 		}
 	],
-	"response_type": "DataPointsCollectionEntity",
-	"locationDetail": {
-		"iso_code": "US"
-	}
+	"response_type": "DataPointsCollectionEntity"
 }
